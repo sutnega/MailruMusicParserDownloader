@@ -1,8 +1,7 @@
-#pip install requests beautifulsoup4
+import requests #pip install requests
+from bs4 import BeautifulSoup  #pip install beautifulsoup4
 
-import requests
-import pandas as pd
-from bs4 import BeautifulSoup
+
 urlMain = "https://my.mail.ru/music/search/макс%20фрай/pages/6"  # ссылка
 
 #//moosic.my.mail.ru/file/2089a7b9146d91efefd8021e4e8f87d6.mp3
